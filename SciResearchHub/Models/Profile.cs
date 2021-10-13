@@ -7,15 +7,16 @@ namespace SciResearchHub.Models
 {
     public class Profile
     {
-       /* public Research(string id, string title, string author, string domain, string imglink, string link, string dateCreated)
+       /* public Profile(string id, string Name, string Domain, string Ranking, string Imglink, string Link, string DateCreated  string ResearchPaper)
         {
             this.Id = id;
-            this.Title = title;
-            this.Author = author;
-            this.Domain = domain;
+            this.Name = Name;
+            this.Domain = Domain;
+            this.Ranking = Ranking;
             this.Imglink = imglink;
-            this.Link = link;
-            this.DateCreated = dateCreated;
+            this.Link = Link;
+            this.DateCreated = DateCreated;
+            ResearchPapers.add(ResearchPaper)
 
         }*/
         public string Id { get; set; }
@@ -25,6 +26,6 @@ namespace SciResearchHub.Models
         public string Imglink { get; set; }
         public string Link { get; set; }
         public string DateCreated { get; set; }
-        public string DateCreated { get; set; }
+        public list<string> ResearchPapers { get; set; }
     }
 }
