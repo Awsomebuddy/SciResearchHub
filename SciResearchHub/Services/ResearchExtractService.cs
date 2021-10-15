@@ -26,7 +26,7 @@ namespace SciResearchHub.Services
         public List<Research> GetResearches()
         {
                 
-                using var connection = new MySqlConnection("server=localhost;user=root;password=GrOwUP$$20;database=sciresearchhubdata");
+                using var connection = new MySqlConnection("server=localhost;user=admin;password=password;database=sciresearchubdata");
                 try
                 {
                     connection.Open();

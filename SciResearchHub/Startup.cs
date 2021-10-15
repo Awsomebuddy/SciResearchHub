@@ -28,6 +28,7 @@ namespace SciResearchHub
             services.AddTransient<MySqlConnection>(_ => new MySqlConnection(Configuration["ConnectionStrings:Default"]));
             services.AddRazorPages();
             services.AddTransient<ResearchExtractService>();
+            services.AddTransient<ProfileExtractService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
