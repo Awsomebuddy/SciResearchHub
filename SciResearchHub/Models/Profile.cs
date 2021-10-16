@@ -26,6 +26,5 @@ namespace SciResearchHub.Models
         public string Imglink { get; set; }
         public string Link { get; set; }
         public string DateCreated { get; set; }
-        public list<string> ResearchPapers { get; set; }
     }
 }
